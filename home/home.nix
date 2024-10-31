@@ -16,7 +16,7 @@
   home.packages = with pkgs; [
     btop git gh rustup dconf swww
     waybar rofi-wayland pavucontrol
-    playerctl  
+    playerctl brightnessctl 
   ];
   services = {
     blueman-applet.enable = true;
